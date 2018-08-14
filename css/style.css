@@ -1,0 +1,138 @@
+/* Profile Image Query - style.css - by: Radasia Waltower*/
+
+.myForm {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.title {
+    margin: 0 auto;
+    margin-left: -100px;
+    padding: 20px 0;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    transform: translate3d(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+}
+
+.words {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.words:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.66667);
+}
+
+.words:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.33333);
+}
+
+.words:nth-child(1) {
+    left: 29px;
+    color: #20c3ff;
+}
+.words:nth-child(1):hover {
+    color: #ffa500;
+}
+
+.words:nth-child(2) {
+    left: 58px;
+    color: #77ec20;
+}
+
+.words:nth-child(2):hover {
+    color: #20c3ff;
+}
+
+.words:nth-child(3) {
+    left: 87px;
+    color: #ffa500;
+}
+
+.words:nth-child(3):hover {
+    color: #77ec20;
+}
+
+li {
+    height: 29px;
+    line-height: -5px;
+    padding: 0 10px;
+    transition: all .4s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.lbl {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.inpt {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    text-align: center; 
+    height: 20px;
+    width: 50%;
+    font-size: 14px;
+}
+
+
+.btn {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffa600));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffa600 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffa600 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffa600 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffa600 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffa600 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffa600',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffa600;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size:15px;
+	margin-top: 20px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff7400;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77ec20), color-stop(1, #6bdd16));
+	background:-moz-linear-gradient(top, #77ec20 5%, #6bdd16 100%);
+	background:-webkit-linear-gradient(top, #77ec20 5%, #6bdd16 100%);
+	background:-o-linear-gradient(top, #77ec20 5%, #6bdd16 100%);
+	background:-ms-linear-gradient(top, #77ec20 5%, #6bdd16 100%);
+	background:linear-gradient(to bottom, #77ec20 5%, #6bdd16 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77ec20', endColorstr='#6bdd16',GradientType=0);
+	color:#20c3ff;
+
+	background-color:#77ec20;
+	border:1px solid #6bdd16;
+
+	
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.results {
+    margin: auto;
+    width: 25%;
+}
