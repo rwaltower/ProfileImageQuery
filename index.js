@@ -3,14 +3,9 @@
 class ProfileImageQuery extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
-
+    this.input = React.createRef();
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({value: event.target.value});
   }
 
   handleSubmit(event) {
@@ -38,7 +33,7 @@ class ProfileImageQuery extends React.Component {
               "Enter email address to search for profile image: "),
             React.createElement("input", {
                 type: "email",
-                value: this.state.value,
+                ref: this.input,
                 onChange: this.handleChange,
                 className: "inpt"
               }),
